@@ -1,0 +1,35 @@
+body {
+    font-family: 'Source Sans Pro';
+    max-width: 800px;
+    width: 60%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 20px #bdc7cf solid;
+    text-align: justify;
+}
+
+.date {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3098dd;
+}
+
+h2 {
+    color: #354b63;
+}
+
+.firstpar {
+    border-left: 2px solid #bdc7cf;
+    padding-left: 10px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    /* style taken from https://css-tricks.com/examples/hrs */
+}
