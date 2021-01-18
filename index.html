@@ -1,2 +1,137 @@
-<h1>Hello World</h1>
-<p>This is a test.</p>
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+    <title>Luke Anthony Borg | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase" href="index.html"><img src="logo.svg" alt="logo mark" width="40" height="30" class="d-inline-block align-top"> Luke Anthony Borg</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav text-uppercase ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel (Component sourced and adapted from https://getbootstrap.com/docs/5.0/examples/carousel/) -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Carousel_1.gif" alt="Lemonaid* branding project" class="img-fluid">
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Lemonaid*</h1>
+              <p>Lemonaid* is a boutique brand offering a range of hydration and performance products with grade A, organic lemons sourced from the Amalfi Coast.</p>
+              <p><a class="btn btn-lg btn-primary" href="work.html#branding" role="button">See More Branding Work</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Carousel_2.jpg" alt="Samuel Sam illustration" class="img-fluid align-items-center align-content-center">
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Samuel Sam</h1>
+              <p>Sam, juggling three large balls with a football pitch in the background—an illustration of a 200 word narrative on Sam’s affection towards juggling.</p>
+              <p><a class="btn btn-lg btn-primary" href="work.html#illustration" role="button">See More Illustrations</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Carousel_3.jpg" alt="Eames DAR chairs shot (iconic chairs series)" class="align-items-center">
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Design Icons Series</h1>
+              <p>Sometimes ambiguous, other times evocative and always compelling this collection of photos isn’t just documentation and homage to these designer pieces but also an expressive, artistic piece in itself.</p>
+              <p><a class="btn btn-lg btn-primary" href="work.html#photography" role="button">See More Photo Essays</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+    <!-- About Me -->
+    <div id="about" class="container">
+      <div class="row">
+        <div class="col-md-7 text-end">
+          <h2 class="featurette-heading">About Me</h2>
+          <p><b>Hi, my name is Luke and I am a multidisciplinary designer; my work ranges from branding, packaging design and editorial design to UX/UI design. I am currently in my final year reading for a degree in Digital Arts at the University of Malta.</b> My dissertation explores the growing concept of ‘the brand experience.’ Through my practice-led research, my aim is to develop a contemporary brand and rethink the traditional retail concept of the local horticulture industry.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="selfie.jpg" alt="photo of myself" width="500" height="500">
+        </div>
+    </div>
+        
+    <!-- Divider -->
+    <hr class="divider">
+
+    <!-- Footer -->
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">BACK TO TOP</a>
+        </p>
+        <a href="https://www.linkedin.com/in/labdsgn/"><i class="bi bi-linkedin"></i></a>&nbsp<a href="https://instagram.com/labdsgn.eu/"><i class="bi bi-instagram"></i></a>&nbsp<a href="https://twitter.com/LukeAnthonyBorg/"><i class="bi bi-twitter"></i></a>
+      </div>
+    </footer>
+        
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>

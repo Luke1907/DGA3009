@@ -1,0 +1,147 @@
+p{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 00;
+  font-size: 1rem;
+}
+
+h1,h2{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -.05rem;
+}
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: 'IBM Plex Sans';
+}
+
+.btn-primary {
+  color: #fff;
+  text-decoration: underline;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.btn-primary:hover {
+  color: #000000;
+  background-color: #C1DDE5;
+  border-color: #C1DDE5;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: .85rem;
+  border-radius: .3rem;
+}
+
+a {
+  color: #E04547;
+}
+
+a:hover {
+  color: #A19F3E;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32rem;
+  filter: brightness(.4);
+  object-fit: cover;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.divider {
+  margin-top: 4rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.row {
+  --bs-gutter-x: 3rem;
+  padding-top: 4rem;
+}
+
+.py-5 {
+  padding-top: 1rem !important;
+  padding-bottom: 0 !important;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(180px, auto);
+  grid-auto-flow: dense;
+  padding: 10px;
+}
+
+.grid-item-img {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.grid-item {
+  padding: 1rem;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #929796;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.span-2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.span-3 {
+  grid-column-end: span 3;
+  grid-row-end: span 4;
+}
+
+.img-fluid {
+  min-height: 100%;
+  object-fit: cover;
+}
